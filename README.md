@@ -54,4 +54,7 @@ Buysilia é um e-commerce que vende:
 	
 ## Tecnologias
 
-O sistema será feito em Node.js utilizando Express (ou não, ainda vou avaliar) com Typescript utilizando testes unitários e banco de dados relacional. Me desafiarei a fazer autenticação OAuth 2.0. 
+NestJS com typescript 
+Prisma ORM 
+PostgreSQL
+Jest
