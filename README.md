@@ -2,13 +2,11 @@
 
 > Nova aplicação se baseando em um [projeto](https://github.com/Felipe-Streva/Buysilia) que participei em 2020.
 
-<hr>
 
 ## Inicialização do projeto
 
 No terminal digite o comando `npm install` para baixar as dependências desse projeto. Depois do download, use o comando `npm run start:dev` para iniciar.
 
-<hr>
 
 ## Buysilia é um e-commerce que vende:
 
