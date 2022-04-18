@@ -8,10 +8,12 @@ import { UserModule } from './user/user.module';
 @Module({
   imports: [
     ConfigModule.forRoot(),
-    MongooseModule.forRoot(`mongodb+srv://${process.env.DATABASE_USER}:${process.env.DATABASE_PASSWORD}@cluster0.xfhmt.mongodb.net/test`), 
-    ProductsModule, SupplierModule, UserModule
+    MongooseModule.forRoot(process.env.DB_MONGO_URI),
+    ProductsModule,
+    SupplierModule,
+    UserModule,
   ],
   controllers: [],
   providers: [],
 })
-export class AppModule { }
+export class AppModule {}
